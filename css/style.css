@@ -1,0 +1,80 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+ 
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../image/SL_042620_30310_36.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+
+}
+/* .right{
+    width: 10px;
+    height: 10ex;
+} */
+
+.mainheader{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+   
+}
+.mainheader .logo img{
+    width: 280px;
+    height: 50px;
+    padding-left: 40px;
+}
+
+.mainheader nav{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainheader nav a{
+    text-decoration-style: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+ .menubutton{
+    margin-right: 40ex;
+    /* position: absolute;
+    right: 200; */
+    
+    
+}
+/* .menubutton button a{
+    text-decoration-style: none;
+} */
+.mainheader button{
+   
+    padding: 10px 10px 45px 45 px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    border-color: none;
+    background-image:url(/image/bg.png);
+    border-radius: 10px;
+    border-style: none;
+}
+
+
+
+
+
+
+h6{
+    margin-right: 5ex;
+    direction: rtl;
+    position: absolute;
+    right: 0;
+}
